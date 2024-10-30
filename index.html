@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NatGeo</title>
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <!-- Font Awesome (cdnjs) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Original CSS -->
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/sign-up-section.css">
+    <link rel="stylesheet" href="styles/mission.css">
+    <link rel="stylesheet" href="styles/news-sections.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__left">
+            <a href="#">
+                <picture>
+                    <source media="(max-width:700px)" srcset="images/header_logo_small.webp">
+                    <img src="images/header_logo.webp" class="header-logo">
+                </picture>
+            </a>
+        </div>
+
+        <div class="header__right">
+            <a class="login-anchor" href="#">
+                LOGIN
+            </a>
+
+            <a href="#" class="search-anchor">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+
+            <a href="#" class="yellow-highlight yellow-highlight__animation newsletters-anchor">Newsletters</a>
+
+            <a class="subscribe-anchor" href="#">
+                SUBSCRIBE
+            </a>
+
+            <button class="menu-btn">
+                <span class="menu-txt">MENU</span>
+                <i class="fa-solid fa-angles-down" style="color: #000000;"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="news-section">
+        <div class="news-section__title-container">
+            <h1 class="news-section__title">
+                LATEST STORIES
+            </h1>
+            <p><span class="yellow-highlight yellow-highlight__animation">Subscribe</span> for full access to read stories from National Geographic</p>
+            <div class="horizontal-dash"></div>
+        </div>
+
+        <div class="query-flex-container">
+            <div class="main-section-news">
+                <div class="main-head-news">
+                    <img src="images/main-news/main-3.avif" class="main-head-news-img">
+
+                    <div class="main-head-news__text">
+                        <h2>Here's why hurricanes are escalating more quickly than ever</h2>
+                        <i class="fa-solid fa-bars mg-top-lg"></i> READ
+                    </div>
+                </div>
+
+                <div class="news-flex">
+                    <div class="news-flex__row">
+                        <div class="news-flex__row__img-cont">
+                            <img src="images/main-news/main-flex-3-1.avif">
+                        </div>
+
+                        <div class="news-flex__row-text">
+                            <h2>Training a puppy? Here's when they're able to learn key skills</h2>
+                            <i class="fa-solid fa-bars mg-top-lg"></i> READ
+                        </div>
+                    </div>
+
+                    <div class="news-flex__row">
+                        <div class="news-flex__row__img-cont">
+                            <img src="images/main-news/main-flex-3-2.avif">
+                        </div>
+
+                        <div class="news-flex__row-text">
+                            <h2>Beans are nutrient dense food. But wich ones are best?</h2>
+                            <i class="fa-solid fa-bars mg-top-lg"></i> READ
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="secondary-news-section">
+                <h1 class="secondary-news-section__title">TODAY'S PICKS</h1>
+
+                <div class="secondary-news__grid">
+                    <div class="secondary-news__grid-content">
+                        <img src="images/secondary-news/secondary-news-3-1.avif">
+
+                        <div class="secondary-news__text">
+                            <h2>SCIENCE</h2>
+                            <p>How farmers and fishers are protecting one of the world's rarest reptiles</p>
+                        </div>
+                    </div>
+
+                    <div class="secondary-news__grid-content">
+                        <img src="images/secondary-news/secondary-news-3-2.avif">
+                        <div class="secondary-news__text">
+                            <h2>LIFESTYLE</h2>
+                            <p>7 best fuss-free water filters for your home</p>
+                        </div>
+                    </div>
+
+                    <div class="secondary-news__grid-content">
+                        <img src="images/secondary-news/secondary-news-3-3.avif">
+
+                        <div class="secondary-news__text">
+                            <h2>SCIENCE</h2>
+                            <p>Millions depend on the Mississipi River-but it's running dry</p>
+                        </div>
+                    </div>
+
+                    <div class="secondary-news__grid-content">
+                        <img src="images/secondary-news/secondary-news-3-4.avif">
+                        <div class="secondary-news__text">
+                            <h2>HISTORY & CULTURE</h2>
+                            <p>The real ancient Roman plot that inspired 'Megalopolis'</p>
+                        </div>
+                    </div>
+
+                    <div class="secondary-news__grid-content">
+                        <img src="images/secondary-news/secondary-news-3-5.avif">
+                        <div class="secondary-news__text">
+                            <h2>SCIENCE</h2>
+                            <p>Why handwriting still matters in the digital age</p>
+                        </div>
+                    </div>
+
+                    <div class="secondary-news__grid-content">
+                        <img src="images/secondary-news/secondary-news-3-6.avif">
+                        <div class="secondary-news__text">
+                            <h2>SCIENCE</h2>
+                            <p>New research shows how genes can identify risk of breast cancer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="" class="yellow-highlight yellow-highlight__animation more-content-link">SEE MORE</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="news-section">
+        <div class="bckg-image-container">
+            <div class="news-section__title-container">
+                <h1 class="news-section__title">
+                    TRAVEL
+                </h1>
+
+                <div class="horizontal-dash"></div>
+            </div>
+        
+            <div class="query-flex-container">
+                <div class="main-section-news">
+                    <div class="main-head-news">
+                        <img src="images/main-news/main-2.avif" class="main-head-news-img">
+
+                        <div class="main-head-news__text">
+                            <h2>Experience Legendary Places</h2>
+                            <i class="fa-solid fa-bars mg-top-lg"></i> VIEW TRIPS
+                        </div>
+                    </div>
+
+                    <div class="news-flex">
+                        <div class="news-flex__row">
+                            <div class="news-flex__row__img-cont">
+                                <img src="images/main-news/main-flex-2-1.avif">
+                            </div>
+
+                            <div class="news-flex__row-text">
+                                <h2>Discover the Wonders of the Ocean</h2>
+                                <i class="fa-solid fa-bars mg-top-lg"></i> VIEW EXPEDITION CRUISES
+                            </div>
+                        </div>
+
+                        <div class="news-flex__row">
+                            <div class="news-flex__row__img-cont">
+                                <img src="images/main-news/main-flex-2-2.avif">
+                            </div>
+                            <div class="news-flex__row-text">
+                                <h2>See Europe from a New Perspective</h2>
+                                <i class="fa-solid fa-bars mg-top-lg"></i> VIEW RIVER CRUISES
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="secondary-news-section">
+                    <h1 class="secondary-news-section__title">LATEST STORIES</h1>
+        
+                    <div class="secondary-news__grid">
+                        <div class="secondary-news__grid-content">
+                            <img src="images/secondary-news/secondary-news-2-1.avif">
+                            <div class="secondary-news__text">
+                                <h2>TRAVEL</h2>
+                                <p>How to spend 7 days in Rajasthan, India's Land of Kings</p>
+                            </div>
+                        </div>
+        
+                        <div class="secondary-news__grid-content">
+                            <img src="images/secondary-news/secondary-news-2-2.avif">
+                            <div class="secondary-news__text">
+                                <h2>PAID CONTENT</h2>
+                                <p>Enchanted Soudah: Traditions in the clouds</p>
+                            </div>
+                        </div>
+        
+                        <div class="secondary-news__grid-content">
+                            <img src="images/secondary-news/secondary-news-2-3.avif">
+                            <div class="secondary-news__text">
+                                <h2>TRAVEL</h2>
+                                <p>What to expect from Europe's new age of high-speed train travel</p>
+                            </div>
+                        </div>
+        
+                        <div class="secondary-news__grid-content">
+                            <img src="images/secondary-news/secondary-news-2-4.avif">
+                            <div class="secondary-news__text">
+                                <h2>PAID CONTENT</h2>
+                                <p>A guide to Svalbard's polar night season</p>
+                            </div>
+                        </div>
+        
+                        <div class="secondary-news__grid-content">
+                            <img src="images/secondary-news/secondary-news-2-5.avif">
+                            <div class="secondary-news__text">
+                                <h2>TRAVEL</h2>
+                                <p>6 of the best Italian hill towns</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <a href="" class="yellow-highlight yellow-highlight__animation more-content-link">SEE MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="news-section">
+        <div class="news-section__title-container">
+            <h1 class="news-section__title">
+                OCTOBER 2024 ISSUE
+            </h1>
+            <p><span class="yellow-highlight yellow-highlight__animation">Subscribe</span> to see the stories from <span class="italic-text">National Geographic</span> magazine</p>
+            <div class="horizontal-dash"></div>
+        </div>
+
+        <div class="query-flex-container">
+            <div class="main-section-news">
+                <div class="main-head-news">
+                    <img src="images/main-news/main-1.avif" class="main-head-news-img">
+
+                    <div class="main-head-news__text">
+                        <h2>A one-of-a-kind journey into the Amazon</h2>
+                        <i class="fa-solid fa-bars mg-top-lg"></i> EXPLORE
+                    </div>
+                </div>
+
+                <div class="news-flex">
+                    <div class="news-flex__row">
+                        <div class="news-flex__row__img-cont">
+                            <img src="images/main-news/main-flex-1-1.avif">
+                        </div>
+
+                        <div class="news-flex__row-text">
+                            <h2>Get up close to the Amazon's iconic pink river dolphins</h2>
+                            <i class="fa-solid fa-bars mg-top-lg"></i> EXPLORE
+                        </div>
+                    </div>
+
+                    <div class="news-flex__row">
+                        <div class="news-flex__row__img-cont">
+                            <img src="images/main-news/main-flex-1-2.avif">
+                        </div>
+
+                        <div class="news-flex__row-text">
+                            <h2>Subscribe to National Geographic Magazine</h2>
+                            <i class="fa-solid fa-bars mg-top-lg"></i> LEARN MORE
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="secondary-news-section">
+                <h1 class="secondary-news-section__title">IN THIS ISSUE</h1>
+
+                <div class="secondary-news__grid">
+                    <div class="secondary-news__grid-content">
+                        <img src="images/secondary-news/secondary-news-1-1.avif">
+                        <p>Trek to the Amazon's steep mountain origins</p>
+                    </div>
+
+                    <div class="secondary-news__grid-content">
+                        <img src="images/secondary-news/secondary-news-1-2.avif">
+                        <p>Swim with golden fish in the hidden headwaters</p>
+                    </div>
+
+                    <div class="secondary-news__grid-content">
+                        <img src="images/secondary-news/secondary-news-1-3.avif">
+                        <p>Feel the river's power whete it meets the sea</p>
+                    </div>
+
+                    <div class="secondary-news__grid-content">
+                        <img src="images/secondary-news/secondary-news-1-4.avif">
+                        <p>How melting snow and ice feed the Amazon</p>
+                    </div>
+
+                    <div class="secondary-news__grid-content">
+                        <img src="images/secondary-news/secondary-news-1-5.avif">
+                        <p>40-foot-tall floods pulse through the Amazon every year</p>
+                    </div>
+
+                    <div class="secondary-news__grid-content">
+                        <img src="images/secondary-news/secondary-news-1-6.avif">
+                        <p>The amazon doesn't end where you think it does</p>
+                    </div>
+                </div>
+
+                <a href="" class="yellow-highlight yellow-highlight__animation more-content-link">SEE ALL</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="mission-container">
+        <div class="mission-container__content">
+            <div class="section-title-container">
+                <h1 class="mission-title">NATIONAL GEOGRAPHIC SOCIETY MISSON</h1>
+                <div class="horizontal-dash"></div>
+            </div>
+
+            <a href="#" class="description-mission-flex">
+                <div class="description-mission-flex__row">
+                    <img class="mission-img" src="images/mission/mission-description.avif">
+                </div>
+
+                <div class="description-mission-flex__row">
+                    <h2>National Geographic's nonprofit work</h2>
+
+                    <p>
+                        National Geographic Society funds the best and brightest individuals dedicated to scientific discovery, exploration, education and storytelling to illuminate and protect the wonder of our world. National Geographic Explorers are continuing to push the boundaries of knowledge, uncovering new insights about the natural and cultural worlds, and strengthening our connection to them and one another.
+                    </p>
+                </div>
+            </a>
+
+            <div class="card-container">
+                <div class="mission-card">
+                    
+                        <div class="mission-card__img">
+                            <img src="images/mission/card-1.avif">
+                        </div>
+
+                        <span class="mission-card-label">IMPACT</span>
+                        <span class="mission-card-label">PERPETUAL PLANET</span>
+
+                        <h3>Josh West on water's life-sustaining contribution in the Amazon</h3>
+                    
+                </div>
+
+                <div class="mission-card">
+                    <a href="#">
+                        <div class="mission-card__img">
+                            <img src="images/mission/card-2.avif">
+                        </div>
+
+                        <span class="mission-card-label">IMPACT</span>
+
+                        <h3>Kerllen Costa amplifies community-led conservation across Africa</h3>
+                    </a>
+                </div>
+
+                <div class="mission-card">
+                        <div class="mission-card__img">
+                            <img src="images/mission/card-3.avif">
+                        </div>
+
+                        <span class="mission-card-label">IMPACT</span>
+
+                        <h3>Federico Pardo connects humans to Colombia's vanishing primates</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sign-up-container">
+        <img src="images/sign-up/bckg-sign-up.webp">
+        
+        
+        <h2 class="sign-up__title">THE BEST OF NATIONAL GEOGRAPHIC DELIVERED TO YOUR INBOX</h2>
+
+        <p class="sign-up__p">
+            Sign up for more inspiring photos, stories and special offers from National Geographic
+        </p>
+
+        <a class="sign-up-anchor" href="#">SIGN UP</a>
+        
+    </section>
+
+    <footer>
+        <img class="footer-logo" src="images/footer_logo.avif">
+
+        <div class="footer-grid">
+            <div class="footer-grid__col">
+                <h3>LEGAL</h3>
+
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Your US State Privacy Rights</a>
+                <a href="#">Children's Online Privacy Policy</a>
+                <a href="#">Interest-Based Ads</a>
+                <a href="#">About Nielsen Measurement</a>
+                <a href="#">Do Not Sell or Share My Personal Information</a>
+            </div>
+
+            <div class="footer-grid__col">
+                <h3>OUR SITES</h3>
+
+                <a href="#">Nat Geo Home</a>
+                <a href="#">Attend a Live Event</a>
+                <a href="#">Book a Trip</a>
+                <a href="#">Buy Maps</a>
+                <a href="#">Inspire Your Kids</a>
+                <a href="#">Shop Nat Geo</a>
+                <a href="#">Visit the D.C. Museum</a>
+                <a href="#">Watch TV</a>
+                <a href="#">Learn About Our Impact</a>
+                <a href="#">Support Our Mission</a>
+                <a href="#">Masthead</a>
+                <a href="#">Press Room</a>
+                <a href="#">Advertise With Us</a>
+            </div>
+
+            <div class="footer-grid__col">
+                <h3>JOIN US</h3>
+
+                <a href="#">Subscribe</a>
+                <a href="#">Customer Service</a>
+                <a href="#">Renew Subscription</a>
+                <a href="#">Manage Your Subscription</a>
+                <a href="#">Work at Nat Geo</a>
+                <a href="#">Sign Up for Our Newsletters</a>
+                <a href="#">Contribute to Protect the Planet</a>
+            </div>
+
+            <div class="footer-grid__col">
+                <h3>FOLLOW US</h3>
+                <div class="socials-container">
+                    <i class="fa-brands fa-instagram social-icon"></i>
+                    <i class="fa-brands fa-facebook social-icon"></i>
+                    <i class="fa-brands fa-x-twitter social-icon"></i>
+                    <i class="fa-brands fa-youtube social-icon"></i>
+                    <i class="fa-brands fa-linkedin social-icon"></i>
+                    <i class="fa-brands fa-tiktok social-icon"></i>
+                    <i class="fa-brands fa-square-reddit social-icon"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright-container">
+        <p>
+            Copyright © 1996-2015 National Geographic Society
+        </p>
+        <p>
+            Copyright © 2015-2024 National Geographic Partners, LLC. All rights reserved
+        </p>
+    </div>
+    
+</body>
+
+</html>

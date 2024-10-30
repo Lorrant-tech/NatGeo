@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Didact Gothic;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+.horizontal-dash {
+    background-color: gold;
+    height: 5px;
+    width: 2.5rem;
+    margin: 1rem auto;
+}
+
+.yellow-highlight {
+    border-bottom: 2px solid gold
+}
+
+.yellow-highlight__animation {
+    background: linear-gradient(to top, gold, gold) no-repeat;
+    background-size: 100% 0%;
+    background-position: bottom;
+    transition: background-size 0.125s ease-in;
+}
+
+.yellow-highlight__animation:hover {
+    background-size: 100% 100%;
+    color: black;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.more-content-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: 1rem auto 1rem auto;
+}
+
+.mg-top-lg {
+    margin-top: 1.5rem;
+}
+
+.padding-1rem {
+    padding: 0 1rem;
+}

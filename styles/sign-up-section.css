@@ -1,0 +1,48 @@
+.sign-up-container {
+    position: relative;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container img {
+    object-fit: cover;
+    opacity: .75;
+    height: 30vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.sign-up-container h2,
+.sign-up-container p,
+.sign-up-container a {
+    text-align: center;
+    margin: .5rem 0;
+}
+
+
+.sign-up-anchor {
+    display: inline;
+    margin-top: 2rem;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0.5rem 6rem;
+
+    background-color: gold;
+    background-image: linear-gradient(to right, white, white);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .250s ease-in;
+}
+
+.sign-up-anchor:hover {
+    background: linear-gradient(to right, white, white) no-repeat;
+    background-size: 100% 100%;
+    background-color: gold;
+}

@@ -1,0 +1,48 @@
+footer {
+    padding: 1rem;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.footer-grid h3 {
+    margin-bottom: .5rem;
+}
+
+.footer-grid a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-grid a:hover {
+    text-decoration: underline;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon {
+    color: white;
+}
+
+.social-icon:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+.copyright-container {
+    padding: 1rem;
+    color: gray;
+    border-top: 1px solid gray;
+}
