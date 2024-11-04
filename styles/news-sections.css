@@ -1,0 +1,137 @@
+.news-section {
+    margin: 1rem 0;
+}
+
+/* Title styles */
+
+.news-section__title-container {
+    text-align: center;
+}
+
+.news-section__title {
+    margin-bottom: 1rem;
+    padding-top: 4rem;
+}
+
+/* Main news styles */
+
+.main-section-news {
+    padding: 1rem;
+}
+
+.news-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.news-flex__row__img-cont {
+    overflow: hidden;
+}
+
+.news-flex__row-text {
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.news-flex img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.news-flex img:hover {
+    transform: scale(1.1);
+}
+
+.main-head-news {
+    position: relative;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.main-head-news-img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.main-head-news-img:hover {
+    transform: scale(1.1);
+}
+
+.main-head-news__text {
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+}
+
+.main-head-news__text h2 {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.bckg-image-container {
+    background-image: url('../images/main-news/main-2-bckg.avif'), linear-gradient(to bottom, transparent,black);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* .bckg-image-container-img {
+    width: 100%;
+    background: linear-gradient(to bottom, transparent, green);
+} */
+
+/* Secondary news styles */
+
+.secondary-news-section {
+    padding: 1rem;
+}
+
+
+.secondary-news-section__title {
+    border-left: 5px solid gold;
+    padding: 0 0 0 1rem;
+    display: inline-block;
+    line-height: 0.8;
+    margin-bottom: 2rem;
+}
+
+.secondary-news__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.secondary-news__grid-content img {
+    max-width: 100px;
+    margin-right: 1rem;
+}
+
+.secondary-news__grid-content {
+    display: flex;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.secondary-news__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondary-news__text h2{
+    color: black;
+    background-color: white;
+    display: inline;
+    max-width: max-content;
+    padding: 0.3em;
+    font-size: 0.8rem;
+}
+
+.secondary-news__text p {
+    font-size: 0.8rem;
+}

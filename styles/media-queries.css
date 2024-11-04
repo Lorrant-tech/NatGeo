@@ -1,0 +1,38 @@
+.query-flex-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width:900px) {
+    .query-flex-container {
+        flex-direction: row-reverse;
+    }
+
+    .news-flex {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 600px) {
+    .search-anchor,
+    .newsletters-anchor,
+    .menu-txt {
+        display: none;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mission-card {
+        max-width: 70%;
+        text-align: center;
+    }
+
+    .sign-up-container{
+        padding: 10rem 0;
+    }
+}

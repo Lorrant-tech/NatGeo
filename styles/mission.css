@@ -1,0 +1,55 @@
+.mission-container {
+    background-color: white;
+    padding: 1.5rem 1rem;
+    color: black;
+}
+
+.mission-container__content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title-container {
+    text-align: center;
+}
+
+.mission-title {
+    font-weight: bold;
+}
+
+.description-mission-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.description-mission-flex__row h2 {
+    margin-bottom: 0.5rem;
+}
+
+.mission-img {
+    max-width: 100%;
+}
+
+.card-container {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.mission-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.mission-card__img img{
+    max-width: 100%;
+}
+
+.mission-card-label:hover {
+    text-decoration: underline;
+}
